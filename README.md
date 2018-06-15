@@ -167,5 +167,6 @@ react-native-create-library --platforms ios,android # 我只创建ios和Android
 - [React-Native系列》38、 ReactNative混合组件封装](https://blog.csdn.net/codetomylaw/article/details/52787404)
 - [Android Studio制作library（图解）](https://blog.csdn.net/u013986975/article/details/70160791)
 - [前端知识 | React-Native如何自己撸第三方库之android篇](https://www.jianshu.com/p/85bfb44c327c)
+- [React Native 进阶之原生 UI 组件封装详解](https://juejin.im/entry/5724249671cfe400576a21f9)
 - [Writing Android component for React Native](https://medium.com/@sejoker/writing-android-component-for-react-native-e34802bf3377)
 - [Native Modules for React Native Android](https://shift.infinite.red/native-modules-for-react-native-android-ac05dbda800d)
