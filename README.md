@@ -19,7 +19,7 @@
 - 一是，如果要实现的原生模块多了，Android Library 也会递增，目录容易混乱难以管理；
 - 二是，这样的原生模块不容易复用，其它项目没法直接使用这个原生模块。
 
-通常的做法是，将实现后原生模块打包好，然后存放在项目的 node_modules 的文件内，供 APP 调用；这就是下边的第二种方式 [创建Npm依赖模块](#创建npm依赖模块)
+通常的做法是，将实现后原生模块打包好，然后存放在项目的 node_modules 的文件内，供 APP 调用；这就是下边的第二种方式 [创建Npm依赖模块](#创建npm依赖模块)
 
 ### 初始化工程
 
@@ -103,12 +103,12 @@ dependencies {
 
 ## 创建Npm依赖模块
 
-### 安装模块创建工具
+### 安装模块创建工具
 
 - [react-native-create-library](https://github.com/frostney/react-native-create-library) 
 > creates a React Native library for different platforms
 
-通过`react-native-create-library`工具可以帮助我们创建一个干净的`ios` 和 `android` Lib工程
+通过`react-native-create-library`工具可以帮助我们创建一个干净的`ios` 和 `android` Lib工程
 
 ```shell
 npm install -g react-native-create-library
@@ -120,7 +120,7 @@ npm install -g react-native-create-library
 react-native-create-library --help
 ```
 
-### 创建模块
+### 创建模块
 
 ```shell
 react-native-create-library --platforms ios,android # 我只创建ios和Android平台的
